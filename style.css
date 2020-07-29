@@ -1,0 +1,96 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Slabo 27px', serif;
+}
+
+#popUpMain{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 1001;
+	display: none;
+
+}
+
+#popup{
+	width: 600px;
+	height: 350px;
+	background-image: url('computer1.jpg');
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 2px 2px 5px 3px white;
+	text-align: center;
+}
+
+#newsHeading{
+	transform: translateY(50px);
+	color: white;
+}
+
+#emailId{
+	width: 60%;
+	padding: 5px;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.submitId{
+	background-color: #0fc0fa;
+	border: none;
+	font-size: 1rem;
+	padding: 0.6rem 1rem;
+	color: white;
+}
+
+nav ul li:hover{
+	display: block;
+	background-color: #32CD32;
+	border-radius: 4px;
+}
+
+
+
+header {
+	width: 100%;
+	height: 90vh;
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+
+.footer {
+	background: #303036;
+	color: white;
+	height: 50px;
+	position: relative;
+	text-align: center;
+
+}
+
+.footer span a {
+	padding-top: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.footer span {
+	float: left;
+	color: white;
+	margin-top: 10px;
+}
+
+.phone span {
+	float: right;
+	color: white;
+	margin-top: 10px;
+}
+
+
